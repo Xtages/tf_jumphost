@@ -1,7 +1,10 @@
-variable "env" {}
+variable "env" {
+  description = "Cloud environment where the resources are allocated e.g. Production, Development, etc"
+}
 
 variable "instance_type" {
   default = "t2.micro"
+  description = "Instance assigned to the jumphost"
 }
 
 variable "public_subnets" {
