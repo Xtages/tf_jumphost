@@ -3,7 +3,7 @@ variable "env" {
 }
 
 variable "instance_type" {
-  default = "t2.micro"
+  default = "t4g.micro"
   description = "Instance assigned to the jumphost"
 }
 
